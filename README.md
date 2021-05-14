@@ -6,18 +6,15 @@ Debido al tamaño, los ficheros csv de los viajes (OD_2014.csv, OD_2015.csv, OD_
 Es necesario descomprimir estos ficheros y dejarlos en la carpeta **data** de su equipo junto con el resto de ficheros csv.
  
 ## Prerequisitos
-Para resolver el desafío se ha construído un notebook de jupyter.
+Para resolver el desafío se ha construído un programa python.
 Es necesario que su computadora tenga instalado Python 3.
-Además, para la instalación es necesario que tenga acceso a Internet.
-Para instalar jupyter se seguirán las instrucciones siguientes:
-
-## Instalación
-Abrir consola de comandos de Windows o un terminal de Linux.
-Escribir la siguiente instrucción: **pip install jupyter** y presionar Enter.
-Python descargará e instalará las librerías necesarias para utilizar jupyter.
+Se necesitan las librerías de python: pandas, matplotlib y json.
+Se proporciona el fichero requirements.txt con las dependencias.
 
 ## Ejecución
-1. Para ejecutar jupyter, abrir la línea de comandos de Windows o un terminal de Linux y escribir la instrucción: **jupyter notebook** y presionar Enter.
-2. Aparecerá un enlace que al pincharlo le abrirá una ventana en su navegador con un explorador de ficheros.
-3. Debe navegar al directorio donde ha descargado el repositorio y seleccionar el notebook **metyis.ipynb**
-4. Podrá ver el notebook con el resultado ejecutado. Para volver a ejectuar, seleccione en el menú Cells -> Run All
+Ejecutar: python3 metyis.py
+
+## Notas
+- El progrma principal se encuentra en metyis.py. Utiliza las clases del módulo trips.py
+- Genera en la carpeta de imagenes 'img' ficheros .png con los histogramas.
+- Se documenta también con un notebook de Jupyter que se encuentra en el repositorio.
